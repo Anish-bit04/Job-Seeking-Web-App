@@ -10,16 +10,16 @@ const Footer = () => {
     <footer className={isAuthorized ? "footerShow" : "footerHide"}>
       <div>&copy; All Rights Reserved.</div>
       <div>
-        <Link to={"#"} target="_blank">
+        <Link to={"https://www.facebook.com/"} target="_blank">
           <FaFacebookF />
         </Link>
-        <Link to={"#"} target="_blank">
+        <Link to={"https://www.youtube.com/"} target="_blank">
           <FaYoutube />
         </Link>
-        <Link to={"#"} target="_blank">
+        <Link to={"https://www.linkedin.com/in/anish004/"} target="_blank">
           <FaLinkedin />
         </Link>
-        <Link to={"#"} target="_blank">
+        <Link to={"https://www.instagram.com/_just_anish/"} target="_blank">
           <RiInstagramFill />
         </Link>
       </div>
